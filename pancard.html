@@ -1,0 +1,216 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <link type="text/css" rel="stylesheet" href="pancrad.css" />
+    <link rel="icon" type="img" href="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <script src="https://kit.fontawesome.com/94cdfdd042.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="myFunction()">
+    <div id="loader"></div>
+    <div class="animate-bottom" id="myDiv">
+        <div
+            style="background-color: #f58f2d; margin-left: auto; margin-right: auto; position: fixed; right: 0; left: 0; z-index: 1030; ">
+            <a style="width: 1180px; margin-left: auto; margin-right: auto; display: flex;  padding: 17px 0 17px 0px;">
+                <img src="img/logo_light.png">
+            </a>
+        </div>
+        <div
+            style="background-color: #f7f6ed; border: 1px solid #ddd; box-shadow: 0 1px 1px rgba(0, 0, 0, .05); padding-top: 71px;">
+            <div style="width: 1180px; margin-left: auto; margin-right: auto; padding: 8px 0;">
+                <a>
+                    <input type="button" value="Home" class="btn">
+                    <input type="button" value="Reprint Of PAN Card" class="btn">
+                    <input type="button" value="Download e-PAN/ e-PAN XML" class="btn">
+                    <input type="button" value="Know Status Of PAN Application" class="btn">
+                </a>
+            </div>
+        </div>
+        <div style="width: 1180px; margin-left: auto; margin-right: auto;">
+            <p style="font-size: 25px;">Online PAN application</p>
+            <p>
+                <span style=" color: #333; ">
+                    As per ITD guidelines,'Request for New PAN Card or/and Changes or Correction in PAN Data'
+                    application is
+                    presently to be used
+                    <u>
+                        <b> only for update/correction in PAN database.</b>
+                    </u>
+                    <b> </b>
+                    For procedure to link Aadhaar with PAN, please click
+                    <a href="#" style="color: #1E88E5; text-decoration: none; margin: 0;"> here.</a>
+                </span>
+            </p>
+            <p>
+                <span style=" color: #333;">
+                    As per provisions of Section 272B of the Income Tax Act., 1961, a penalty of ₹ 10,000 can be levied
+                    on
+                    possession of more than one PAN.
+                </span>
+            </p>
+            <div>
+                <hr>
+            </div>
+            <div style="margin-top: 25px; display: flex; border-bottom: 1px solid #ddd;">
+                <button
+                    style="background-color: #037991; border-top-color: #353535; color: #fff; border-top-width: 2px; padding: 12px 15px; border: none;">
+                    <i class="fa-solid fa-user-plus "></i>
+                    Apply Online
+                </button>
+                <button class="text-body">
+                    <i class="fa-solid fa-book-open-reader"></i>
+                    Continue With Application
+                </button>
+            </div>
+            <form>
+                <div style="float: left;">
+                    <label for="Application Type">Application Type<span style="color: #D84315;">*</span> </label>
+                    <br>
+                    <select id="">
+                        <option value="----Please Select----">----Please Select----</option>
+                        <option value="New PAN - Indian Citizen (Form 49A)">New PAN - Indian Citizen (Form 49A)</option>
+                        <option value="New PAN - Foreign Citizen (Form 49AA)">New PAN - Foreign Citizen (Form 49AA)
+                        </option>
+                        <option
+                            value="Changes or Correction in existing PAN Data / Reprint of PAN Card (No changes in existing PAN Data)">
+                            Changes or Correction in existing PAN Data / Reprint of PAN Card (No changes in existing PAN
+                            Data)
+                        </option>
+                    </select>
+                </div>
+                <div style="margin-left: 20px; float: left;">
+                    <label for="Category">Category<span style="color: #D84315;">*</span> </label>
+                    <br>
+                    <select id="">
+                        <option value="----Please Select----">----Please Select----</option>
+                        <option value="INDIVIDUAL">INDIVIDUAL</option>
+                        <option value="ASSOCIATION OF PERSONS">ASSOCIATION OF PERSONS</option>
+                        <option value="BODY OF INDIVIDUALS">BODY OF INDIVIDUALS</option>
+                        <option value="COMPANY">COMPANY</option>
+                        <option value="TRUST">TRUST</option>
+                        <option value="FIRM">FIRM</option>
+                        <option value="LIMITED LIABILITY PARTNERSHIP">LIMITED LIABILITY PARTNERSHIP</option>
+                        <option value="LIMITED LIABILITY PARTNERSHIP">GOVERNMENT</option>
+                    </select>
+                </div>
+            </form>
+            <p style="float: left; font-size: 17px; color: #007790; padding-left: 20px;">Applicant information </p>
+            <i class="fa-solid fa-circle-info"
+                style="color: #1e88e5; padding-top: 21px; padding-left: 5px; font-size: 17px;"></i>
+            <form>
+                <div style="background-color: #f0eedc; height: 400px;">
+                    <div>
+                        <label for="Title*">Title<span style="color: #D84315;">*</span> </label>
+                        <br>
+                        <select id="">
+                            <option value="----Please Select----">----Please Select----</option>
+                        </select>
+                    </div>
+                    <br><br>
+                    <div style="margin-left: 0px; float: left;">
+                        <label for="name">Last Name / Surname<span style="color: #D84315;">*</span> </label>
+                        <br>
+                        <input type="text" name="Last Name" class="name">
+                        <br>
+                    </div>
+                    <div style="margin-left: 20px; float: left;">
+                        <label for="name">First Name <span style="color: #D84315;">*</span> </label>
+                        <br>
+                        <input type="text" name="Last Name" class="name">
+                        <br>
+                    </div>
+                    <div style="margin-left: 20px; float: left;">
+                        <label for="name">Middle Name <span style="color: #D84315;">*</span> </label>
+                        <br>
+                        <input type="text" name="Last Name" class="name">
+                        <br>
+                    </div>
+                    <div style="margin-left: 0px; float: left;">
+                        <label for="name">Date of Birth / Incorporation / Formation (DD/MM/YYYY) <span
+                                style="color: #D84315;">*</span> </label>
+                        <br>
+                        <input type="datetime-local" name="datetime-local" class="name">
+                        <br>
+                    </div>
+                    <div style="margin-left: 20px; float: left;">
+                        <label for="name">Email ID* <span style="color: #D84315;">*</span> </label>
+                        <br>
+                        <input type="email" name="Email" class="name">
+                        <br>
+                    </div>
+                    <div style="margin-left: 20px; float: left;">
+                        <label for="name">Mobile Number <span style="color: #D84315;">*</span> </label>
+                        <br>
+                        <input type="tel" name="tel" class="name">
+                        <br>
+                    </div>
+                    <div style=" margin-top: 175px; ">
+                        <input type="checkbox" name="content">
+                    </div>
+                    <p>By submitting data to us and/or using our Protean e-Gov TIN web site <a style="color: blue;"
+                            href="#"> https://www.onlineservices.Protean.com/paam/endUserRegisterContact.html </a> you
+                        give your consent that all personal data/information that you submit to avail tax related
+                        services from Protean eGov Technologies Limited may be received, stored, processed, transmitted
+                        and or made available for view /use as mandated by law or otherwise, shall be dealt with by us
+                        in the manner and for the purposes specified / as described in the privacy policy or as mandated
+                        by law. I have also read, understood and expressly agree to be bound by the Privacy Policy <a
+                            style="color: blue;" href="#"> https://www.protean-tinpan.com/privacy-policy.html, </a>
+                        Disclaimer and web-site usage guidelines as published by Protean on its website from time to
+                        time.</p>
+                </div>
+                <div style="padding-top: 20px;">
+                    <label>Select Language</label>
+                    <select name="" id="" class="language">
+                        <option value="English">English</option>
+                        <option value="Gujarati">Gujarati</option>
+                        <option value="Marathi">Marathi</option>
+                        <option value="Tamil">Tamil</option>
+                        <option value="Telugu">Telugu</option>
+                        <option value="Bengali">Bengali</option>
+                    </select>
+                </div>
+                <div style="padding-top: 20px; display: flex; ">
+                    <button type="button"
+                        style="background-color: #F58F2D; border: none; color: #fff; border-color: #F58F2D; border-radius: 2px; padding: 10px 15px;"
+                        name="playAudio" onclick="playAudioRC()">Play audio</button>
+                    <div style="padding-left: 7px;">
+                        <button type="button"
+                            style="background-color: #F58F2D;  border: none; color: #fff; border-color: #F58F2D; border-radius: 2px; padding: 10px 15px;"
+                            name="playAudio" onclick="playAudioRC()">Stop audio</button>
+                    </div>
+                </div>
+            </form>
+            <div style="display: flex; padding-left: 20px; ">
+                <button type="reset" value="Reset" id="reset">
+                    Reset
+                </button>
+                <button type="submit" value="submit" id="submit">
+                    Submit
+                </button>
+            </div>
+        </div>
+        <div
+            style="text-align: center; margin-top: 80px; background-color: #451511; color: #fff; padding: 20px 0 10px;">
+            Copyright 2024 | Powered by <a href="#" style="color: #166dba; text-decoration: none;"> Protean eGov
+                Technologies Limited </a>– Building nationally critical and population scale Digital Public
+            Infrastructure for the nation.
+        </div>
+    </div>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 1000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/1a5adda433.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
